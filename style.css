@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/*SECCIÓN BUSQUEDA*/
+.busqueda{
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+
+.search{
+    margin: 10px;
+    width: 90%;
+}
+
+.btn-search{
+    margin: 10px;
+}
+
+/*SECCIÓN CARDS*/
+
+.sections-products{
+    width: 90%;
+    margin: auto;
+}
+
+.container_cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards{
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+    margin: 5px;
+    width: 15%;
+}
+.cards:hover{
+    box-shadow: 5px 5px 0px 0px rgba(204,187,187,0.71);
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(204,187,187,0.71);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(204,187,187,0.71);
+}
+
+
+
+.img-card{
+    aspect-ratio: 1/1;
+    width: 35px;
+    margin: auto;
+}

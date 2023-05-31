@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "imagen": "📺",
+        "nombre": "Smart TV 4K 4K",
+        "precio": 290000,
+        "categoria": "TV"
+    },
+    {
+        "id": 2,
+        "imagen": "📱",
+        "nombre": "Samsung Galaxy",
+        "precio": 200000,
+        "categoria": "celulares"
+    },
+    {
+        "id": 3,
+        "imagen": "🥶",
+        "nombre": "Heladera 277 lts",
+        "precio": 164999,
+        "categoria": "electrodomesticos"
+    },
+    {
+        "id": 4,
+        "imagen": "🌬️",
+        "nombre": "Ventilador",
+        "precio": 16999,
+        "categoria": "computadoras"
+    },
+    {
+        "id": 5,
+        "imagen": "👖",
+        "nombre": "Lavarropas",
+        "precio": 169899,
+        "categoria": "electrodomesticos"
+    },
+    {
+        "id": 6,
+        "imagen": "🔊",
+        "nombre": "Parlante Bluetooh",
+        "precio": 58888,
+        "categoria": "electronica"
+    },
+    {
+        "id": 7,
+        "imagen": "🪁",
+        "nombre": "Aire Acondicionado",
+        "precio": 280000,
+        "categoria": "electrodomesticos"
+    },
+    {
+        "id": 8,
+        "imagen": "👔",
+        "nombre": "Secarropas Centrifugo",
+        "precio": 41111,
+        "categoria": "electrodomesticos"
+    },
+    {
+        "id": 9,
+        "imagen": "⌚",
+        "nombre": "SmartWatch",
+        "precio": 180000,
+        "categoria": "electronica"
+    },
+    {
+        "id": 10,
+        "imagen": "📱",
+        "nombre": "¡Phone 11",
+        "precio": 360000,
+        "categoria": "celulares"
+    },
+    {
+        "id": 11,
+        "imagen": "📳",
+        "nombre": "Tablet 7´",
+        "precio": 50000,
+        "categoria": "electronica"
+    },
+    {
+        "id": 12,
+        "imagen": "🎮",
+        "nombre": "Joistick",
+        "precio": 30000,
+        "categoria": "electronica"
+    }
+]

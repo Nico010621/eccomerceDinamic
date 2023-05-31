@@ -1,0 +1,49 @@
+Creación de cards dinámicas con datos de una database.
+
+ Primero creo una card modelo, tendrá la estructura HTML con los
+datos que necesito mostrar.
+Luego vuelvo la card dinámica, creando una función que me retornará la
+estructura de la misma
+
+  function cardProductos() {
+    return `<div class="cards">
+                <h2 class="img-card"></h2>
+                <p></p>
+                <h4></h4>
+            </div>`
+}
+
+
+Luego tengo que crear una función que me traiga los datos de un 
+array de elementos o de una database (previamente creado) y 
+que se los pase a la card, la cual estará asociada a un <div> 
+vacio de mi HTML, el cual tengo que declarar
+
+const card = document.querySelector("#sections-products");
+
+function mostrarProductos(){
+    let productosHTML= "";
+    if (productos.length > 0){
+        for (let element of productos) {
+            productosHTML += cardProductos(element)
+        }
+        card.innerHTML = productosHTML   
+    }
+}
+mostrarProductos();
+
+Con la función creada, la cual carga los datos a una card, debo 
+sobre la función card pasarle estos datos obtenidos
+
+function cardProductos(element) {
+    return `<div class="cards">
+                <h2 class="img-card">${element.imagen}</h2>
+                <p>${element.nombre}</p>
+                <h4>${element.precio}</h4>
+            </div>`
+}
+
+Esta función recibira los datos que mi función mostrarProductos
+obtuvo del array, los asociara con los datos declarados entre ${}
+(los cuales deben coincidir con los datos de la database) y está
+listo para pasarlos al código.
